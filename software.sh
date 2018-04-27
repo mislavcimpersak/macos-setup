@@ -186,5 +186,6 @@ pipsi install awscli
 pipsi install httpie
 pipsi install subliminal
 pipsi install udemy-dl
+pipsi install checkoutmanager
 pipsi install --python=python3 tldr
 pipsi install --python=python3 bandcamp-downloader
