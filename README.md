@@ -32,7 +32,7 @@ curl -L https://raw.githubusercontent.com/mislavcimpersak/macos-setup/master/os_
 
 ### Pull repositories using [checkoutmanager](https://github.com/reinout/checkoutmanager)
 
-_Checkoutmanager_ is isntalled with _pipsi_ and `~/.checkoutmanager.cfg` is pulled in by Mackup.
+_Checkoutmanager_ is installed with _pipsi_ and `~/.checkoutmanager.cfg` is pulled in by Mackup.
 
 ```sh
 checkoutmanager co
