@@ -12,7 +12,7 @@ Get everything up to date ( -> About This Mac -> Software Update)
 
 ### Install [brew](http://brew.sh/), [cask](http://caskroom.io/) and various software
 ```sh
-curl -L https://gist.github.com/mislavcimpersak/cfc23d9e75c44d8526bf/raw/software.sh | bash
+curl -L https://raw.githubusercontent.com/mislavcimpersak/macos-setup/master/software.sh | bash
 ```
 
 #### Setup apps
@@ -27,7 +27,7 @@ curl -L https://gist.github.com/mislavcimpersak/cfc23d9e75c44d8526bf/raw/softwar
 ### Set OS defaults
 Setting up some custom Mac OS defaults.
 ```sh
-curl -L https://gist.github.com/mislavcimpersak/cfc23d9e75c44d8526bf/raw/os_defaults.sh | bash
+curl -L https://raw.githubusercontent.com/mislavcimpersak/macos-setup/master/os_defaults.sh | bash
 ```
 
 ### Pull repositories using [checkoutmanager](https://github.com/reinout/checkoutmanager)
