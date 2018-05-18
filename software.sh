@@ -105,6 +105,7 @@ brew cask install gimp
 brew cask install typora
 # video chat
 brew cask install skype
+brew cask install zoomus
 # gaming
 brew cask install steam
 # brew cask install teamspeak-client
