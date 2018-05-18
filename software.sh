@@ -65,8 +65,6 @@ brew cask install opera
 # cloud storage
 brew cask install dropbox
 
-brew cask install evernote
-
 # multimedia
 brew cask install vlc
 #  subtitles search apps
@@ -80,6 +78,8 @@ brew cask install flixtools
 # youtube music video player
 # brew cask install atraci
 
+# notes
+brew cask install evernote
 # window management
 brew cask install spectacle
 # key remapper
