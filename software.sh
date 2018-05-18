@@ -138,8 +138,6 @@ brew cask install all2mp3
 brew cask install slack
 # mount ntfs drivers in macos
 # brew cask install paragon-ntfs
-# desktop widget manager
-# brew cask install ubersicht
 # mount android phone as storage
 brew cask install android-file-transfer
 # create bootable linux usb
