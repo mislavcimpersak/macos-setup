@@ -120,9 +120,9 @@ brew cask install a-better-finder-rename
 # brew cask install sublime-text3
 brew cask install visual-studio-code
 # postgres gui
-brew cask install pgadmin3
+# brew cask install pgadmin3
 # mongodb gui
-brew cask install mongodb-compass
+# brew cask install mongodb-compass
 # sqlite gui
 brew cask install sqlitebrowser
 # logitech software for devices using logitech unifying receiver
