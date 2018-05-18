@@ -76,7 +76,7 @@ brew cask install evernote
 # window management
 brew cask install spectacle
 # key remapper
-brew cask install karabiner
+brew cask install karabiner-elements
 # menu bar item control
 brew cask install bartender
 # ftp client
