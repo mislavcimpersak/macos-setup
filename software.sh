@@ -144,8 +144,6 @@ brew cask install android-file-transfer
 # vm
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
-# remote desktop viewer
-brew cask install vnc-viewer
 # backup
 brew cask install backblaze
 # docker with docker-compose
