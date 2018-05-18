@@ -141,8 +141,6 @@ brew cask install slack
 # brew cask install paragon-ntfs
 # mount android phone as storage
 brew cask install android-file-transfer
-# create bootable linux usb
-brew cask install unetbootin
 # vm
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
