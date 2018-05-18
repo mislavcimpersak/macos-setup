@@ -181,10 +181,10 @@ brew cask install quicknfo
 #  https://github.com/mitsuhiko/pipsi
 curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python
 #  pipsi installs
-pipsi install awscli
-pipsi install httpie
-pipsi install subliminal
-pipsi install udemy-dl
+pipsi install --python=python3 awscli
+pipsi install --python=python3 httpie
+pipsi install --python=python3 subliminal
+pipsi install --python=python3 udemy-dl
 pipsi install checkoutmanager
 pipsi install --python=python3 tldr
 pipsi install --python=python3 bandcamp-downloader
