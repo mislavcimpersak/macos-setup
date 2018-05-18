@@ -84,11 +84,11 @@ brew cask install filezilla
 # chat client
 brew cask install adium
 # facebook messenger client
-brew cask install caprine
+# brew cask install caprine
 # telegram client
-brew cask install telegram-desktop
+# brew cask install telegram-desktop
 # whatsapp client
-brew cask install whatsapp
+# brew cask install whatsapp
 # torrent app
 brew cask install utorrent
 # system maintance
@@ -105,8 +105,7 @@ brew cask install zoomus
 brew cask install station
 # gaming
 brew cask install steam
-# brew cask install teamspeak-client
-brew cask install discord
+# brew cask install discord
 # better archive support
 brew cask install the-unarchiver
 # terminal alternative
