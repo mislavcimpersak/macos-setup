@@ -87,6 +87,8 @@ brew cask install adium
 brew cask install caprine
 # telegram client
 brew cask install telegram-desktop
+# whatsapp client
+brew cask install whatsapp
 # torrent app
 brew cask install utorrent
 # system maintance
