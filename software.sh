@@ -133,8 +133,6 @@ brew cask install sqlitebrowser
 # brew cask install logitech-unifying
 # git gui
 brew cask install fork
-# lock/unlock using iphone
-brew cask install knock
 # id3 tag editor
 brew cask install kid3
 # convert any audio to mp3 using command line
