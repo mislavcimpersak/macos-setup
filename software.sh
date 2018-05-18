@@ -69,14 +69,7 @@ brew cask install dropbox
 brew cask install vlc
 #  subtitles search apps
 brew cask install flixtools
-#  dlna server
-# brew cask install ps3-media-server
 #  last.fm scrobbler - authentification problems - using scrobomatic from app store
-# brew cask install lastfm
-# white noise app
-# brew cask install noizio
-# youtube music video player
-# brew cask install atraci
 
 # notes
 brew cask install evernote
