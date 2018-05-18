@@ -101,6 +101,8 @@ brew cask install typora
 # video chat
 brew cask install skype
 brew cask install zoomus
+# messaging apps aggregator
+brew cask install station
 # gaming
 brew cask install steam
 # brew cask install teamspeak-client
