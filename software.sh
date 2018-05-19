@@ -81,14 +81,6 @@ brew cask install karabiner-elements
 brew cask install bartender
 # ftp client
 brew cask install filezilla
-# chat client
-brew cask install adium
-# facebook messenger client
-# brew cask install caprine
-# telegram client
-# brew cask install telegram-desktop
-# whatsapp client
-# brew cask install whatsapp
 # torrent app
 brew cask install utorrent
 # system maintance
