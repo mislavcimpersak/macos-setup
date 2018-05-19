@@ -102,7 +102,7 @@ brew cask install typora
 brew cask install skype
 brew cask install zoomus
 # messaging apps aggregator
-brew cask install station
+brew cask install franz
 # gaming
 brew cask install steam
 # brew cask install discord
