@@ -5,7 +5,7 @@ install_homebrew(){
     if test ! $(which brew)
     then
       echo "  Installing Homebrew."
-      ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+      /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     fi
 }
 
@@ -13,9 +13,9 @@ install_homebrew(){
 install_homebrew
 
 # install cask
-brew install caskroom/cask/brew-cask
+brew tap homebrew/cask
 # add versions support in cask
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 
 # install pip
 sudo easy_install pip
