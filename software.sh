@@ -39,7 +39,7 @@ brew install ssh-copy-id
 # backup mac os config to dropbox
 brew install mackup
 # OS X provides an older sqlite3
-brew install sqlite
+# brew install sqlite
 # dev stuff
 brew install python3
 brew install vim
@@ -84,8 +84,8 @@ brew cask install filezilla
 # torrent app
 brew cask install utorrent
 # system maintance
-brew cask install ccleaner
-brew cask install omnidisksweeper
+# brew cask install ccleaner
+# brew cask install omnidisksweeper
 # photo editor
 brew cask install gimp
 # markdown editor
@@ -107,7 +107,7 @@ brew cask install flash-player
 # java vm
 brew cask install java
 # mass renamer
-brew cask install a-better-finder-rename
+# brew cask install a-better-finder-rename
 # text editor
 # brew cask install sublime-text3
 brew cask install visual-studio-code
@@ -124,7 +124,7 @@ brew cask install fork
 # id3 tag editor
 brew cask install kid3
 # convert any audio to mp3 using command line
-brew cask install all2mp3
+# brew cask install all2mp3
 # prevent mac from sleeping
 # brew cask install nosleep
 # team communication tool
