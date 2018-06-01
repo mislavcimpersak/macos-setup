@@ -170,3 +170,6 @@ pipsi install --python=python3 udemy-dl
 pipsi install checkoutmanager
 pipsi install --python=python3 tldr
 pipsi install --python=python3 bandcamp-downloader
+
+# set to use zsh as default shell
+chsh -s /usr/local/bin/zsh
