@@ -142,6 +142,8 @@ brew cask install backblaze
 brew cask install docker
 # public tunnel to localhost
 brew cask install ngrok
+# microsoft office 365
+brew cask install microsoft-office
 
 # quick view plugins
 #  syntax highlighting
