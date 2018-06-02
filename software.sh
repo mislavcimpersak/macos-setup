@@ -129,6 +129,8 @@ brew cask install kid3
 # brew cask install nosleep
 # team communication tool
 brew cask install slack
+# keybase - pgp
+brew cask install keybase
 # mount ntfs drivers in macos
 # brew cask install paragon-ntfs
 # mount android phone as storage
