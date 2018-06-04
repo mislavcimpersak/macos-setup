@@ -82,7 +82,7 @@ brew cask install bartender
 # ftp client
 brew cask install filezilla
 # torrent app
-brew cask install utorrent
+brew cask install qbittorrent
 # system maintance
 # brew cask install ccleaner
 # brew cask install omnidisksweeper
