@@ -89,7 +89,7 @@ brew cask install utorrent
 # photo editor
 brew cask install gimp
 # markdown editor
-brew cask install typora
+brew cask install mark-text
 # video chat
 brew cask install skype
 brew cask install zoomus
