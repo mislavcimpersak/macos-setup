@@ -82,7 +82,7 @@ brew cask install bartender
 # ftp client
 brew cask install filezilla
 # torrent app
-brew cask install utorrent
+brew cask install qbittorrent
 # system maintance
 # brew cask install ccleaner
 # brew cask install omnidisksweeper
@@ -129,6 +129,8 @@ brew cask install kid3
 # brew cask install nosleep
 # team communication tool
 brew cask install slack
+# keybase - pgp
+brew cask install keybase
 # mount ntfs drivers in macos
 # brew cask install paragon-ntfs
 # mount android phone as storage
@@ -142,6 +144,8 @@ brew cask install backblaze
 brew cask install docker
 # public tunnel to localhost
 brew cask install ngrok
+# microsoft office 365
+brew cask install microsoft-office
 
 # quick view plugins
 #  syntax highlighting
