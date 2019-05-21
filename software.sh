@@ -171,6 +171,7 @@ brew cask install quicknfo
 curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python
 #  pipsi installs
 pipsi install --python=python3 awscli
+pipsi install --python=python3 awscli-local
 pipsi install --python=python3 httpie
 pipsi install --python=python3 subliminal
 pipsi install --python=python3 udemy-dl
