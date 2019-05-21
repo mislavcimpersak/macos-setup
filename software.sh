@@ -28,6 +28,7 @@ sudo pip install virtualenvwrapper
 brew install zsh
 brew install wget
 brew install curl
+brew install kubernetes-cli
 # mail alternative
 brew install mutt
 # top alternative
@@ -142,6 +143,8 @@ brew cask install virtualbox-extension-pack
 brew cask install backblaze
 # docker with docker-compose
 brew cask install docker
+# run kubernetes locally
+brew cask install minikube
 # public tunnel to localhost
 brew cask install ngrok
 # microsoft office 365
