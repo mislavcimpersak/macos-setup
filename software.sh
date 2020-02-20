@@ -14,6 +14,8 @@ install_homebrew
 
 # install cask
 brew tap homebrew/cask
+brew tap homebrew/cask-drivers
+brew tap homebrew/cask-fonts
 # add versions support in cask
 brew tap homebrew/cask-versions
 
