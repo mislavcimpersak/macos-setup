@@ -121,6 +121,8 @@ brew cask install visual-studio-code
 # brew cask install mongodb-compass
 # sqlite gui
 # brew cask install sqlitebrowser
+# general database gui
+brew cask install tableplus
 # logitech software for devices using logitech unifying receiver
 # brew cask install logitech-unifying
 # git gui
