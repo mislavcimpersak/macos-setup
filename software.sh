@@ -30,7 +30,7 @@ brew install wget
 brew install curl
 brew install kubernetes-cli
 # mail alternative
-brew install mutt
+# brew install mutt
 # top alternative
 brew install htop
 # list dir contents as a tree
@@ -45,14 +45,14 @@ brew install mackup
 brew install python3
 brew install vim
 brew install git
-brew install postgres
+# brew install postgres
 brew install node
 # brew install redis
 # brew install memcached
 # brew install memcached-top
 # brew install rabbitmq
 # brew install sphinx
-brew install siege
+# brew install siege
 brew install terraform
 # download youtube videos using command line
 brew install youtube-dl
@@ -83,7 +83,7 @@ brew cask install bartender
 # ftp client
 brew cask install filezilla
 # torrent app
-brew cask install qbittorrent
+# brew cask install qbittorrent
 # system maintance
 # brew cask install ccleaner
 # brew cask install omnidisksweeper
@@ -117,13 +117,13 @@ brew cask install visual-studio-code
 # mongodb gui
 # brew cask install mongodb-compass
 # sqlite gui
-brew cask install sqlitebrowser
+# brew cask install sqlitebrowser
 # logitech software for devices using logitech unifying receiver
 # brew cask install logitech-unifying
 # git gui
 brew cask install fork
 # id3 tag editor
-brew cask install kid3
+# brew cask install kid3
 # convert any audio to mp3 using command line
 # brew cask install all2mp3
 # prevent mac from sleeping
@@ -131,7 +131,7 @@ brew cask install kid3
 # team communication tool
 brew cask install slack
 # keybase - pgp
-brew cask install keybase
+# brew cask install keybase
 # mount ntfs drivers in macos
 # brew cask install paragon-ntfs
 # mount android phone as storage
