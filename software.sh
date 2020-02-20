@@ -166,19 +166,18 @@ brew cask install qlstephen
 #  nfo files
 brew cask install quicknfo
 
-# install pipsi
-#  https://github.com/mitsuhiko/pipsi
-curl https://raw.githubusercontent.com/mitsuhiko/pipsi/master/get-pipsi.py | python
-#  pipsi installs
-pipsi install --python=python3 awscli
-pipsi install --python=python3 awscli-local
-pipsi install --python=python3 httpie
-pipsi install --python=python3 subliminal
-pipsi install --python=python3 udemy-dl
-pipsi install checkoutmanager
-pipsi install --python=python3 tldr
-pipsi install --python=python3 bandcamp-downloader
-pipsi install --python=python3 jupyterthemes
+# install pipx (a maintaned pipsi alternative)
+brew install pipx
+#  pipx installs
+pipx install --python=python3 awscli
+pipx install --python=python3 awscli-local
+pipx install --python=python3 httpie
+pipx install --python=python3 subliminal
+pipx install --python=python3 udemy-dl
+pipx install checkoutmanager
+pipx install --python=python3 tldr
+pipx install --python=python3 bandcamp-downloader
+pipx install --python=python3 jupyterthemes
 
 # set to use zsh as default shell
 chsh -s /usr/local/bin/zsh
