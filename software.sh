@@ -28,6 +28,7 @@ sudo pip install virtualenvwrapper
 brew install zsh
 brew install wget
 brew install curl
+brew install fd
 brew install kubernetes-cli
 # mail alternative
 # brew install mutt
