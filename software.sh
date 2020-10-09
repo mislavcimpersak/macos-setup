@@ -173,6 +173,11 @@ brew cask install quicknfo
 # GCP SDK
 brew cask install google-cloud-sdk
 
+# yubikey
+brew install ykman
+brew cask install yubico-authenticator
+brew cask install yubico-yubikey-manager
+
 
 # install pipx (a maintaned pipsi alternative)
 brew install pipx
