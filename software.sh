@@ -170,6 +170,9 @@ brew cask install qlimagesize
 brew cask install qlstephen
 #  nfo files
 brew cask install quicknfo
+# GCP SDK
+brew cask install google-cloud-sdk
+
 
 # install pipx (a maintaned pipsi alternative)
 brew install pipx
