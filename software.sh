@@ -18,6 +18,8 @@ brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
 # add versions support in cask
 brew tap homebrew/cask-versions
+# hashicorp official tap
+brew tap hashicorp/tap
 
 # install pip
 sudo easy_install pip
@@ -56,7 +58,7 @@ brew install node
 # brew install rabbitmq
 # brew install sphinx
 # brew install siege
-brew install terraform
+brew install hashicorp/tap/terraform
 # download youtube videos using command line
 brew install youtube-dl
 
