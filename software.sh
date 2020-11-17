@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 
 install_homebrew(){
     # Check for Homebrew
