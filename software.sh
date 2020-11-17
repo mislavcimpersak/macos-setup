@@ -88,10 +88,6 @@ brew cask install vlc
 brew cask install flixtools
 #  last.fm scrobbler - authentification problems - using scrobomatic from app store
 
-# notes
-brew cask install evernote
-# calendar
-brew cask install fantastical
 # window management
 # brew cask install spectacle
 # spectacle is dead, rectangle is the successor
@@ -100,6 +96,10 @@ brew cask install rectangle
 brew cask install karabiner-elements
 # menu bar item control
 brew cask install bartender
+# calendar
+brew cask install fantastical
+# notes
+brew cask install evernote
 # ftp client
 brew cask install filezilla
 # torrent app
