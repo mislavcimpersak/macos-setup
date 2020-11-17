@@ -22,22 +22,24 @@ brew tap homebrew/cask-versions
 brew tap hashicorp/tap
 
 # install pip
-sudo easy_install pip
+# sudo easy_install pip
 
 # install virtualenv(wrapper)
-sudo pip install virtualenv
-sudo pip install virtualenvwrapper
+# sudo pip install virtualenv
+# sudo pip install virtualenvwrapper
 
 # brew installs
 brew install zsh
 brew install wget
-brew install curl
+# curl now comes with macos
+# brew install curl
 brew install fd
-brew install kubernetes-cli
 # mail alternative
 # brew install mutt
 # top alternative
 brew install htop
+# cat replacement
+brew install bat
 # list dir contents as a tree
 brew install tree
 # standard linux command to copy ssh keys to remote
@@ -77,10 +79,23 @@ brew cask install vlc
 brew cask install flixtools
 #  last.fm scrobbler - authentification problems - using scrobomatic from app store
 
+# password managers/auth
+brew cask install 1password
+brew cask install bitwarden
+brew cask install authy
+# yubikey
+brew install ykman
+brew cask install yubico-authenticator
+brew cask install yubico-yubikey-manager
+
 # notes
 brew cask install evernote
+# calendar
+brew cask install fantastical
 # window management
-brew cask install spectacle
+# brew cask install spectacle
+# spectacle is dead, rectangle is the successor
+brew cask install rectangle
 # key remapper
 brew cask install karabiner-elements
 # menu bar item control
@@ -93,7 +108,7 @@ brew cask install filezilla
 # brew cask install ccleaner
 # brew cask install omnidisksweeper
 # photo editor
-brew cask install gimp
+# brew cask install gimp
 # markdown editor
 brew cask install mark-text
 # video chat
@@ -112,6 +127,8 @@ brew cask install iterm2
 brew cask install flash-player
 # java vm
 brew cask install java
+# golang
+brew install go
 # mass renamer
 # brew cask install a-better-finder-rename
 # text editor
@@ -147,15 +164,24 @@ brew cask install android-file-transfer
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 # backup
-brew cask install backblaze
+# brew cask install backblaze
+# kubernetes
+brew install kubectl
+brew install kubectx
+brew install helm
+brew cask install lens
 # docker with docker-compose
 brew cask install docker
 # run kubernetes locally
-brew cask install minikube
+# brew cask install minikube
 # public tunnel to localhost
 brew cask install ngrok
+# api client
+brew cask install insomnia
 # microsoft office 365
 brew cask install microsoft-office
+# preview kindle e-books
+brew cask install kindle-previewer
 
 # quick view plugins
 #  syntax highlighting
@@ -175,11 +201,10 @@ brew cask install quicknfo
 # GCP SDK
 brew cask install google-cloud-sdk
 
-# yubikey
-brew install ykman
-brew cask install yubico-authenticator
-brew cask install yubico-yubikey-manager
-
+brew cask install aws-vault
+brew install aws-iam-authenticator
+brew install chamber
+# brew cask install gpg-suite-no-mail
 
 # install pipx (a maintaned pipsi alternative)
 brew install pipx
@@ -193,6 +218,8 @@ pipx install checkoutmanager
 pipx install --python=python3 tldr
 pipx install --python=python3 bandcamp-downloader
 pipx install --python=python3 jupyterthemes
+pipx install --python=python3 virtualenv
+pipx install --python=python3 virtualenvwrapper
 
 # set to use zsh as default shell
 chsh -s /usr/local/bin/zsh
