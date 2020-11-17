@@ -120,7 +120,9 @@ brew cask install franz
 brew cask install steam
 # brew cask install discord
 # better archive support
-brew cask install the-unarchiver
+# brew cask install the-unarchiver
+brew cask install keka
+brew cask install kekadefaultapp
 # terminal alternative
 brew cask install iterm2
 # flash player
@@ -198,6 +200,7 @@ brew cask install qlimagesize
 brew cask install qlstephen
 #  nfo files
 brew cask install quicknfo
+
 # GCP SDK
 brew cask install google-cloud-sdk
 
