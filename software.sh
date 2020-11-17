@@ -190,8 +190,6 @@ brew cask install qlcolorcode
 brew cask install qlmarkdown
 #  json files
 brew cask install quicklook-json
-#  archives
-brew cask install betterzipql
 #  image size
 brew cask install qlimagesize
 #  show content of text files that don't have extensions
