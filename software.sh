@@ -29,7 +29,7 @@ brew tap hashicorp/tap
 # sudo pip install virtualenvwrapper
 
 # brew installs
-brew install zsh
+# brew install zsh
 brew install wget
 # curl now comes with macos
 # brew install curl
