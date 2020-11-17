@@ -70,15 +70,6 @@ brew cask install google-chrome
 brew cask install firefox
 brew cask install opera
 
-# cloud storage
-brew cask install dropbox
-
-# multimedia
-brew cask install vlc
-#  subtitles search apps
-brew cask install flixtools
-#  last.fm scrobbler - authentification problems - using scrobomatic from app store
-
 # password managers/auth
 brew cask install 1password
 brew cask install bitwarden
@@ -87,6 +78,15 @@ brew cask install authy
 brew install ykman
 brew cask install yubico-authenticator
 brew cask install yubico-yubikey-manager
+
+# cloud storage
+brew cask install dropbox
+
+# multimedia
+brew cask install vlc
+#  subtitles search apps
+brew cask install flixtools
+#  last.fm scrobbler - authentification problems - using scrobomatic from app store
 
 # notes
 brew cask install evernote
