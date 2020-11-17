@@ -225,4 +225,4 @@ pipx install --python=python3 virtualenv
 pipx install --python=python3 virtualenvwrapper
 
 # set to use zsh as default shell
-chsh -s /usr/local/bin/zsh
+# chsh -s /usr/local/bin/zsh
