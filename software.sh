@@ -82,12 +82,6 @@ brew cask install yubico-yubikey-manager
 # cloud storage
 brew cask install dropbox
 
-# multimedia
-brew cask install vlc
-#  subtitles search apps
-brew cask install flixtools
-#  last.fm scrobbler - authentification problems - using scrobomatic from app store
-
 # window management
 # brew cask install spectacle
 # spectacle is dead, rectangle is the successor
@@ -180,10 +174,27 @@ brew cask install docker
 brew cask install ngrok
 # api client
 brew cask install insomnia
+
+# GCP SDK
+brew cask install google-cloud-sdk
+
+brew cask install aws-vault
+brew install aws-iam-authenticator
+brew install chamber
+# brew cask install gpg-suite-no-mail
+
 # microsoft office 365
 brew cask install microsoft-office
 # preview kindle e-books
 brew cask install kindle-previewer
+
+# multimedia
+brew cask install vlc
+#  subtitles search apps
+brew cask install flixtools
+#  last.fm scrobbler - authentification problems - using scrobomatic from app store
+# youtube music player
+brew cask install ytmdesktop-youtube-music
 
 # quick view plugins
 #  syntax highlighting
@@ -200,14 +211,6 @@ brew cask install qlimagesize
 brew cask install qlstephen
 #  nfo files
 brew cask install quicknfo
-
-# GCP SDK
-brew cask install google-cloud-sdk
-
-brew cask install aws-vault
-brew install aws-iam-authenticator
-brew install chamber
-# brew cask install gpg-suite-no-mail
 
 # install pipx (a maintaned pipsi alternative)
 brew install pipx
