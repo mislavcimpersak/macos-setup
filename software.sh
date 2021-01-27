@@ -60,7 +60,9 @@ brew install node
 # brew install rabbitmq
 # brew install sphinx
 # brew install siege
-brew install hashicorp/tap/terraform
+# brew install hashicorp/tap/terraform
+# have multiple versions of terraform installed
+brew install tfenv
 # download youtube videos using command line
 brew install youtube-dl
 
