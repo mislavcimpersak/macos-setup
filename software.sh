@@ -66,151 +66,151 @@ brew install youtube-dl
 
 # cask installs
 # browsers
-brew cask install google-chrome
-brew cask install firefox
-brew cask install opera
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask opera
 
 # password managers/auth
-brew cask install 1password
-brew cask install bitwarden
-brew cask install authy
+brew install --cask 1password
+brew install --cask bitwarden
+brew install --cask authy
 # yubikey
 brew install ykman
-brew cask install yubico-authenticator
-brew cask install yubico-yubikey-manager
+brew install --cask yubico-authenticator
+brew install --cask yubico-yubikey-manager
 
 # cloud storage
-brew cask install dropbox
+brew install --cask dropbox
 
 # window management
-# brew cask install spectacle
+# brew install --cask spectacle
 # spectacle is dead, rectangle is the successor
-brew cask install rectangle
+brew install --cask rectangle
 # key remapper
-brew cask install karabiner-elements
+brew install --cask karabiner-elements
 # menu bar item control
-brew cask install bartender
+brew install --cask bartender
 # calendar
-brew cask install fantastical
+brew install --cask fantastical
 # notes
-brew cask install evernote
+brew install --cask evernote
 # ftp client
-brew cask install filezilla
+brew install --cask filezilla
 # torrent app
-# brew cask install qbittorrent
+# brew install --cask qbittorrent
 # system maintance
-# brew cask install ccleaner
-# brew cask install omnidisksweeper
+# brew install --cask ccleaner
+# brew install --cask omnidisksweeper
 # photo editor
-# brew cask install gimp
+# brew install --cask gimp
 # markdown editor
-brew cask install mark-text
+brew install --cask mark-text
 # video chat
-brew cask install skype
-brew cask install zoomus
+brew install --cask skype
+brew install --cask zoomus
 # messaging apps aggregator
-brew cask install franz
+brew install --cask franz
 # gaming
-brew cask install steam
-# brew cask install discord
+brew install --cask steam
+# brew install --cask discord
 # better archive support
-# brew cask install the-unarchiver
-brew cask install keka
-brew cask install kekadefaultapp
+# brew install --cask the-unarchiver
+brew install --cask keka
+brew install --cask kekadefaultapp
 # terminal alternative
-brew cask install iterm2
+brew install --cask iterm2
 # flash player
-brew cask install flash-player
+brew install --cask flash-player
 # java vm
-brew cask install java
+brew install --cask java
 # golang
 brew install go
 # mass renamer
-# brew cask install a-better-finder-rename
+# brew install --cask a-better-finder-rename
 # text editor
-# brew cask install sublime-text3
-brew cask install visual-studio-code
+# brew install --cask sublime-text3
+brew install --cask visual-studio-code
 # postgres gui
-# brew cask install pgadmin3
+# brew install --cask pgadmin3
 # mongodb gui
-# brew cask install mongodb-compass
+# brew install --cask mongodb-compass
 # sqlite gui
-# brew cask install sqlitebrowser
+# brew install --cask sqlitebrowser
 # general database gui
-brew cask install tableplus
+brew install --cask tableplus
 # logitech software for devices using logitech unifying receiver
-# brew cask install logitech-unifying
+# brew install --cask logitech-unifying
 # git gui
-brew cask install fork
+brew install --cask fork
 # id3 tag editor
-# brew cask install kid3
+# brew install --cask kid3
 # convert any audio to mp3 using command line
-# brew cask install all2mp3
+# brew install --cask all2mp3
 # prevent mac from sleeping
-# brew cask install nosleep
+# brew install --cask nosleep
 # team communication tool
-brew cask install slack
+brew install --cask slack
 # keybase - pgp
-# brew cask install keybase
+# brew install --cask keybase
 # mount ntfs drivers in macos
-# brew cask install paragon-ntfs
+# brew install --cask paragon-ntfs
 # mount android phone as storage
-brew cask install android-file-transfer
+brew install --cask android-file-transfer
 # vm
-brew cask install virtualbox
-brew cask install virtualbox-extension-pack
+brew install --cask virtualbox
+brew install --cask virtualbox-extension-pack
 # backup
-# brew cask install backblaze
+# brew install --cask backblaze
 # kubernetes
 brew install kubectl
 brew install kubectx
 brew install helm
-brew cask install lens
+brew install --cask lens
 # docker with docker-compose
-brew cask install docker
+brew install --cask docker
 # run kubernetes locally
-# brew cask install minikube
+# brew install --cask minikube
 # public tunnel to localhost
-brew cask install ngrok
+brew install --cask ngrok
 # api client
-brew cask install insomnia
+brew install --cask insomnia
 
 # GCP SDK
-brew cask install google-cloud-sdk
+brew install --cask google-cloud-sdk
 
-brew cask install aws-vault
+brew install --cask aws-vault
 brew install aws-iam-authenticator
 brew install chamber
-# brew cask install gpg-suite-no-mail
+# brew install --cask gpg-suite-no-mail
 
 # microsoft office 365
-brew cask install microsoft-office
+brew install --cask microsoft-office
 # preview kindle e-books
-brew cask install kindle-previewer
+brew install --cask kindle-previewer
 
 # multimedia
-brew cask install vlc
+brew install --cask vlc
 #  subtitles search apps
-brew cask install flixtools
+brew install --cask flixtools
 #  last.fm scrobbler - authentification problems - using scrobomatic from app store
 # youtube music player
-brew cask install ytmdesktop-youtube-music
+brew install --cask ytmdesktop-youtube-music
 
 # quick view plugins
 #  syntax highlighting
-brew cask install qlcolorcode
+brew install --cask qlcolorcode
 #  markdown files
-brew cask install qlmarkdown
+brew install --cask qlmarkdown
 #  json files
-brew cask install quicklook-json
+brew install --cask quicklook-json
 #  inspect installer packages
-brew cask install suspicious-package
+brew install --cask suspicious-package
 #  image size
-brew cask install qlimagesize
+brew install --cask qlimagesize
 #  show content of text files that don't have extensions
-brew cask install qlstephen
+brew install --cask qlstephen
 #  nfo files
-brew cask install quicknfo
+brew install --cask quicknfo
 
 # install pipx (a maintaned pipsi alternative)
 brew install pipx
