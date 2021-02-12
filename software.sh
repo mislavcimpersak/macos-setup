@@ -124,7 +124,7 @@ brew install --cask iterm2
 # flash player
 brew install --cask flash-player
 # java vm
-brew install --cask java
+# brew install --cask java  # Cask 'java' is unavailable: No Cask with this name exists.
 # golang
 brew install go
 # mass renamer
