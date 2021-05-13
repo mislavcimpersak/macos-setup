@@ -88,6 +88,8 @@ brew install --cask dropbox
 # brew install --cask spectacle
 # spectacle is dead, rectangle is the successor
 brew install --cask rectangle
+# external monitor brightness and volume control
+brew install --cask monitorcontrol
 # key remapper
 brew install --cask karabiner-elements
 # menu bar item control
