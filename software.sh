@@ -5,7 +5,7 @@ install_homebrew(){
     if test ! $(which brew)
     then
       echo "  Installing Homebrew."
-      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     fi
 }
 
@@ -20,13 +20,8 @@ brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 # hashicorp official tap
 brew tap hashicorp/tap
-
-# install pip
-# sudo easy_install pip
-
-# install virtualenv(wrapper)
-# sudo pip install virtualenv
-# sudo pip install virtualenvwrapper
+# eksctl tap
+brew tap weaveworks/tap
 
 # brew installs
 # brew install zsh
@@ -49,7 +44,7 @@ brew install mackup
 # OS X provides an older sqlite3
 # brew install sqlite
 # dev stuff
-brew install python3
+brew install pyenv
 brew install vim
 brew install git
 # brew install postgres
@@ -64,7 +59,7 @@ brew install node
 # have multiple versions of terraform installed
 brew install tfenv
 # download youtube videos using command line
-brew install youtube-dl
+# brew install youtube-dl
 
 # cask installs
 # browsers
@@ -110,25 +105,26 @@ brew install --cask filezilla
 # markdown editor
 brew install --cask mark-text
 # video chat
-brew install --cask skype
+# brew install --cask skype
 brew install --cask zoomus
 # messaging apps aggregator
-brew install --cask franz
+# brew install --cask franz
 # gaming
-brew install --cask steam
+# brew install --cask steam
 # brew install --cask discord
 # better archive support
 # brew install --cask the-unarchiver
 brew install --cask keka
 brew install --cask kekadefaultapp
 # terminal alternative
-brew install --cask iterm2
+# brew install --cask iterm2
+brew install --cask warp
 # flash player
-brew install --cask flash-player
+# brew install --cask flash-player
 # java vm
 # brew install --cask java  # Cask 'java' is unavailable: No Cask with this name exists.
 # golang
-brew install go
+# brew install go
 # mass renamer
 # brew install --cask a-better-finder-rename
 # text editor
@@ -169,7 +165,7 @@ brew install --cask virtualbox-extension-pack
 brew install kubectl
 brew install kubectx
 brew install helm
-brew install --cask lens
+brew install k9s
 # docker with docker-compose
 brew install --cask docker
 # run kubernetes locally
@@ -180,17 +176,19 @@ brew install --cask ngrok
 brew install --cask insomnia
 
 # GCP SDK
-brew install --cask google-cloud-sdk
+# brew install --cask google-cloud-sdk
 
+brew install awscli
 brew install --cask aws-vault
 brew install aws-iam-authenticator
 brew install chamber
+brew install weaveworks/tap/eksctl
 # brew install --cask gpg-suite-no-mail
 
 # microsoft office 365
 brew install --cask microsoft-office
 # preview kindle e-books
-brew install --cask kindle-previewer
+# brew install --cask kindle-previewer
 
 # multimedia
 brew install --cask vlc
@@ -202,32 +200,26 @@ brew install --cask ytmdesktop-youtube-music
 
 # quick view plugins
 #  syntax highlighting
-brew install --cask qlcolorcode
-#  markdown files
-brew install --cask qlmarkdown
-#  json files
-brew install --cask quicklook-json
-#  inspect installer packages
-brew install --cask suspicious-package
-#  image size
-brew install --cask qlimagesize
-#  show content of text files that don't have extensions
-brew install --cask qlstephen
-#  nfo files
-brew install --cask quicknfo
+# brew install --cask qlcolorcode
+# #  markdown files
+# brew install --cask qlmarkdown
+# #  json files
+# brew install --cask quicklook-json
+# #  inspect installer packages
+# brew install --cask suspicious-package
+# #  image size
+# brew install --cask qlimagesize
+# #  show content of text files that don't have extensions
+# brew install --cask qlstephen
+# #  nfo files
+# brew install --cask quicknfo
 
 # install pipx (a maintaned pipsi alternative)
 brew install pipx
 #  pipx installs
-pipx install --python=python3 awscli
-pipx install --python=python3 awscli-local
 pipx install --python=python3 httpie
-pipx install --python=python3 subliminal
-pipx install --python=python3 udemy-dl
-pipx install checkoutmanager
+pipx install --python=python3 checkoutmanager
 pipx install --python=python3 tldr
-pipx install --python=python3 bandcamp-downloader
-pipx install --python=python3 jupyterthemes
 pipx install --python=python3 virtualenv
 pipx install --python=python3 virtualenvwrapper
 
